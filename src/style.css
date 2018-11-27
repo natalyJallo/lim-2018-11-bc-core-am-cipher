@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=ABeeZee|Carrois+Gothic+SC|Didact+Gothic|Magra:700|Quattrocento+Sans|Tauri');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;/*asegura que el relleno y el borde esta incluido en el ancho total y alturatotal de la caja*/
+  list-style: none;
+  text-decoration: none;
+}
+
+/*diseño de la seccion principal*/
+body {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+}
+/*
+background-color: #F4A460;
+/*diseño del encabezado*/
+header {
+  font-size: 15px;
+  width: 100%;
+  height: 50px;
+  font-family: 'Tauri', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Magra', sans-serif;
+  font-family: 'Carrois Gothic SC', sans-serif;
+  text-align: left, center;
+  padding-left: 50px;
+  font-weight: 3px;
+  background: #333;
+  color: #FFFFFF;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+section {
+  width: 100%;
+}
+/*diseño de la pagina principal*/
+
+.pagina {
+  width: 1366px;
+  opacity: 0.7;
+  height: 710px;
+  padding: 90px;
+}
+#homepage {
+  display: block;
+  background-image: url(imagenes/imagen5.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#page-cipher {
+  display: block;
+  background-image: url(imagenes/imagen8.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#answer-cipher {
+  display: block;
+  background-image: url(imagenes/imagen7.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#page-decipher {
+  display: none;
+  background-image: url(imagenes/imagen8.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#answer-decipher {
+  display: none;
+  background-image: url(imagenes/imagen9.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+/*Primer encabezado de la pagina principal*/
+.text1 {
+  text-align: center;
+  line-height: 30pt;
+  font-size: 40px;
+  padding-top: 60px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  color:  #FFF9FB;
+}
+/*Segundo texto de la pagina principal*/
+.text2 {
+  text-align: center;
+  padding-top: 60px;
+  line-height: 25pt;
+  color: #242223;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+/*Tercer encabezado de la pagina principal*/
+.text3 {
+  text-align:left;
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 30px;
+  float: left;
+  overflow: hidden;
+  line-height: 20pt;
+  font-family: 'Tauri', sans-serif;
+  font-family: 'ABeeZee', sans-serif;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
+  width: 580px;
+  background: rgba(0, 0, 0, 0.3);
+  height: 250px;
+  border-radius: 10px;
+  color: #E5DDDF;
+}
+.image2 {
+  width: 20px;
+  height: 20px;
+}
+/*Estilo del espcaio de la caja donde va los botones*/
+.caja-btn {
+  width: 600px;
+  float: right;
+  padding-top: 100px;
+  padding-left: 100px;
+  word-spacing: 80px;
+}
+p {
+  font-size: 40px;
+  color: #95918D;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 30px;
+  padding: 20px 60px;
+  text-align: justify;
+}
+
+/*diseño de cuadros de texto*/
+}
+.cuadro1 {
+  background-color: #FFFACD;/*color del fondo del boton*/
+/*redondeado de los bordes del boton*/
+  border: 2px solid #F4A460;  /*grososr para el borde del boton*/
+
+}
+/*diseño del boton cifrar y descifrar*/
+.btn1 {
+text-decoration: none; /*para no tener el boton subrayado*/
+padding: 20px; /*distancia entre el texto y el borde del boton*/
+font-size: 25px;/*tamaño de la letra*/
+color: #FFFFFF;/*color de la letra*/
+background-color: #181616;/*color del fondo del boton*/
+border-radius: 6px;/*redondeado de los bordes del boton*/
+border: 2px solid rgba(51, 49, 48, 0.3);  /*grososr para el borde del boton*/
+width: 180px; /*medida del ancho del boton*/
+height: 50px; /*medida de la altura del boton*/
+font-family: 'Raleway', sans-serif;
+letter-spacing: 2px;
+text-align: center;
+line-height: 15px;
+padding-top: 15px;
+
+}
+.btn1:hover {
+  color: #181616;
+  background-color: rgba(255, 255, 255,0.4);
+  border: 2px solid rgba(51, 49, 48, 0.3);
+  cursor: pointer;
+}
+
+/*diseño del boton siguiente*/
+.btn2 {
+  word-spacing: 80pt;
+  text-align: center;
+}
+/*Diseño y estilo para las paginas de cifrar y resultados*/
+p {
+  text-align: center;
+  font-size: 20px;
+  line-height: 20pt;
+}
+
+.form1 {
+  width: 800px;
+  margin: auto;
+  padding: 60px 30px;
+  line-height: 4pt;
+  height: 500px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.form1 p {
+  color: #FFFFFF;
+}
+
+.form1 label {
+  float: left;
+  display: inline-block;
+  margin-top: 2px;
+  padding: 3px;
+  width: 150px;
+  color: #fff;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1pt;
+}
+.form1 input {
+  height: 23px;
+  padding: 5px 8px;
+  width: 180px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+.form1 textarea {
+  padding: 8px;
+  width: 500px;
+  margin-bottom: 30px;
+}
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 550px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.form1 input, .form1 textarea {
+  border: 1px solid black;
+  box-shadow: 0 0 3px #96928E, 0 10px 15px #eee inset;
+  border-radius: 3px;
+  padding-right: 30px;
+  -moz-transition:padding .25s;
+  -webkit-transition:padding .25;
+  -o-transition:padding .25;
+}
+
+.form1 input:focus, .form1 textarea:focus {
+  background: white;
+  border: 1px solid #96928E;
+  box-shadow: 0 0 3px #B6B1AB;
+  padding-right: 70x;
+  line-height: 20pt;
+}
