@@ -10,8 +10,8 @@ window.cipher = {
           else if (ubicacion >= 65 && ubicacion <=90) {
             cipherText = String.fromCharCode((ubicacion - 65 + offset) % 26 + 65);
           }
-          else if (ubicacion >= 97 && ubicacion <= 122){
-             cipherText = String.fromCharCode((ubicacion - 97 + offset) % 26 + 97);
+          else if (ubicacion >= 97 && ubicacion <= 122) {
+            cipherText = String.fromCharCode((ubicacion - 97 + offset) % 26 + 97);
           }
             resultEncode += cipherText;
         }
