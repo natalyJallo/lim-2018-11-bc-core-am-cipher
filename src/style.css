@@ -2,7 +2,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;/*asegura que el relleno y el borde esta incluido en el ancho total y alturatotal de la caja*/
   list-style: none;
   text-decoration: none;
 }
@@ -19,9 +18,8 @@ body {
 background-color: #F4A460;
 /*diseño del encabezado*/
 header {
-  font-size: 15px;
   width: 100%;
-  height: 50px;
+  height: 70px;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -29,16 +27,30 @@ header {
   font-family: 'Magra', sans-serif;
   font-family: 'Carrois Gothic SC', sans-serif;
   text-align: left, center;
-  padding-left: 50px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
   font-weight: 3px;
   background: #333;
   color: #FFFFFF;
   position: fixed;
-  top: 0;
+  margin-top: 0;
   z-index: 100;
 }
+#homepage h2 {
+  font-size: 13px;
+  background-color: #FAEBD7;
+  padding: 10px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
 section {
   width: 100%;
+  background-color: #F0F8FF;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
 }
 /*diseño de la pagina principal*/
 
@@ -48,35 +60,47 @@ section {
   height: 710px;
   padding: 90px;
 }
+.image4 {
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
 #homepage {
   display: block;
-  background-image: url(imagenes/imagen5.jpg);
+  background-image: url(imagenes/imagen2.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #page-cipher {
   display: block;
   background-image: url(imagenes/imagen8.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #answer-cipher {
   display: block;
   background-image: url(imagenes/imagen7.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #page-decipher {
-  display: none;
+  display: block;
   background-image: url(imagenes/imagen8.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #answer-decipher {
-  display: none;
+  display: block;
   background-image: url(imagenes/imagen9.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 
 /*Primer encabezado de la pagina principal*/
@@ -84,7 +108,7 @@ section {
   text-align: center;
   line-height: 30pt;
   font-size: 40px;
-  padding-top: 60px;
+  padding-top: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   color:  #FFF9FB;
@@ -94,21 +118,22 @@ section {
   text-align: center;
   padding-top: 60px;
   line-height: 25pt;
-  color: #242223;
+  color: #32302F;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-size: 25px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
+
 /*Tercer encabezado de la pagina principal*/
 .text3 {
   text-align:left;
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-left: :430px;
   float: left;
   overflow: hidden;
-  line-height: 20pt;
+  line-height: 25pt;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -257,3 +282,4 @@ textarea {
   padding-right: 70x;
   line-height: 20pt;
 }
+col-xs-12
