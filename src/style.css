@@ -8,7 +8,6 @@ width: 100%;
 background-color: #F4A460;
 /*diseño del encabezado*/
 header {
-  font-size: 15px;
   width: 100%;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
@@ -39,6 +38,10 @@ header h1 {
 
 section {
   width: 100%;
+  background-color: #F0F8FF;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
 }
 /*diseño de la pagina principal*/
 
@@ -56,24 +59,28 @@ section {
   background-image: url(imagenes/imagen8.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #answer-cipher {
   display: block;
   background-image: url(imagenes/imagen7.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #page-decipher {
-  display: none;
+  display: block;
   background-image: url(imagenes/imagen8.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 #answer-decipher {
-  display: none;
+  display: block;
   background-image: url(imagenes/imagen9.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
+  position: absolute;
 }
 
 /*Primer encabezado de la pagina principal*/
@@ -93,7 +100,7 @@ section {
   text-align: left;
   padding-top: 50px;
   line-height: 25pt;
-  color: #242223;
+  color: #32302F;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-size: 25px;
@@ -101,15 +108,16 @@ section {
   overflow: hidden;
   padding-left: 40px;
 }
+
 /*Tercer encabezado de la pagina principal*/
 .text3 {
   text-align:left;
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 50px;
-  padding-left: 30px;
+  padding-left: :430px;
   float: left;
   overflow: hidden;
-  line-height: 20pt;
+  line-height: 25pt;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -265,3 +273,4 @@ textarea {
   padding-right: 70x;
   line-height: 20pt;
 }
+col-xs-12
