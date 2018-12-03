@@ -19,21 +19,21 @@ window.cipher = {
   },
 
   decode : (offsetSecond,textElementSecond) => {
-      let decipher = "";
+      let decipherText = "";
       let resultDecode = "";
         for (let j = 0; j < textElementSecond.length; j++) {
           let ubicacionDes = textElementSecond.charCodeAt(j);
           let offsetSecondNew = offsetSecond%26;
           if (ubicacionDes === 32) {
-            decipher = " ";
+            decipherText = " ";
           }
           else if (ubicacionDes >= 65 && ubicacionDes <=90) {
-            decipher = String.fromCharCode((ubicacionDes + 65 - offsetSecondNew) % 26 + 65);
+            decipherText = String.fromCharCode(90 - (90 - ubicacionDes + offsetSecondNew) % 26);
           }
           else if (ubicacionDes >= 97 && ubicacionDes <= 122) {
-            decipher = String.fromCharCode((ubicacionDes + 97 - offsetSecondNew) % 26 + 97);
+            decipherText = String.fromCharCode(122 - (122 - ubicacionDes + offsetSecondNew) % 26);
           }
-          resultDecode += decipher;
+          resultDecode += decipherText;
         }
       return resultDecode;
     }

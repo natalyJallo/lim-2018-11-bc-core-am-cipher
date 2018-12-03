@@ -1,19 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=ABeeZee|Carrois+Gothic+SC|Didact+Gothic|Magra:700|Quattrocento+Sans|Tauri');
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;/*asegura que el relleno y el borde esta incluido en el ancho total y alturatotal de la caja*/
-  list-style: none;
-  text-decoration: none;
-}
 
 /*diseño de la seccion principal*/
 body {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  width: 100%;
+width: 100%;
 }
 /*
 background-color: #F4A460;
@@ -21,38 +10,46 @@ background-color: #F4A460;
 header {
   font-size: 15px;
   width: 100%;
-  height: 50px;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
   font-family: 'Quattrocento Sans', sans-serif;
   font-family: 'Didact Gothic', sans-serif;
   font-family: 'Magra', sans-serif;
   font-family: 'Carrois Gothic SC', sans-serif;
-  text-align: left, center;
   padding-left: 50px;
   font-weight: 3px;
   background: #333;
   color: #FFFFFF;
-  position: fixed;
-  top: 0;
-  z-index: 100;
+  background-attachment: fixed;
 }
+header h1 {
+  margin: 20px 0 20px 0;
+  float: left;
+}
+.icons img {
+  margin: 25px 0 25px 0;
+  float: right;
+}
+
+.image {
+  display: inline;
+  margin-left: 10px;
+  width: 3%;
+}
+
 section {
   width: 100%;
 }
 /*diseño de la pagina principal*/
 
 .pagina {
-  width: 1366px;
-  opacity: 0.7;
-  height: 710px;
   padding: 90px;
 }
+
 #homepage {
   display: block;
-  background-image: url(imagenes/imagen5.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
+  background-image: url(imagenes/imagen513.png);
+  background-size: cover;
 }
 #page-cipher {
   display: block;
@@ -81,24 +78,28 @@ section {
 
 /*Primer encabezado de la pagina principal*/
 .text1 {
-  text-align: center;
-  line-height: 30pt;
+  text-align: left;
+  line-height: 40pt;
   font-size: 40px;
-  padding-top: 60px;
-  font-family: 'Raleway', sans-serif;
+  padding-top: 50px;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  color:  #FFF9FB;
+  color:  #000000;
+  padding-left: 40px;
 }
 /*Segundo texto de la pagina principal*/
 .text2 {
-  text-align: center;
-  padding-top: 60px;
+  text-align: left;
+  padding-top: 50px;
   line-height: 25pt;
   color: #242223;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-size: 25px;
   padding-bottom: 20px;
+  overflow: hidden;
+  padding-left: 40px;
 }
 /*Tercer encabezado de la pagina principal*/
 .text3 {
@@ -119,18 +120,25 @@ section {
   border-radius: 10px;
   color: #E5DDDF;
 }
-.image2 {
-  width: 20px;
-  height: 20px;
+
+article h1 {
+  padding-top: 50px;
+  text-align: center;
 }
 /*Estilo del espcaio de la caja donde va los botones*/
-.caja-btn {
-  width: 600px;
-  float: right;
-  padding-top: 100px;
-  padding-left: 100px;
-  word-spacing: 80px;
+h3 {
+  text-align: center;
 }
+
+.box-text {
+  text-align: center;
+  float: left;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+  border-radius: 6px;
+}
+
 p {
   font-size: 40px;
   color: #95918D;

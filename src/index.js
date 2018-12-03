@@ -1,5 +1,5 @@
 const inicio = () => {
-  document.getElementById("homepage").style.display="block";
+  document.getElementById("home").style.display="block";
   document.getElementById("page-cipher").style.display="none";
   document.getElementById("answer-cipher").style.display="none";
   document.getElementById("page-decipher").style.display="none";
@@ -10,7 +10,7 @@ inicio();
 // Pagina de cirar
 const nextPage = document.getElementById("cifrar");
 nextPage.addEventListener("click", () => {
-  document.getElementById("homepage").style.display="none";
+  document.getElementById("home").style.display="none";
   document.getElementById("page-cipher").style.display="block";
   document.getElementById("answer-cipher").style.display="none";
   document.getElementById("page-decipher").style.display="none";
@@ -22,9 +22,9 @@ nextPage.addEventListener("click", () => {
  nextPageResult.addEventListener("click", () => {
    const number = parseInt(document.getElementById("cambios").value);
    const message = document.getElementById("texto").value;
-   const resultCipher = cipher.encode(number,message);
+   const resultCipher = window.cipher.encode(number,message);
    document.getElementById("result-message").innerHTML = resultCipher;
-   document.getElementById("homepage").style.display="none";
+  document.getElementById("home").style.display="none";
    document.getElementById("page-cipher").style.display="none";
    document.getElementById("answer-cipher").style.display="block";
    document.getElementById("page-decipher").style.display="none";
@@ -38,7 +38,7 @@ nextPage.addEventListener("click", () => {
 // Pgina de descifrar
   const nextPageSecond = document.getElementById("descifrar");
   nextPageSecond.addEventListener("click", () => {
-    document.getElementById("homepage").style.display="none";
+    document.getElementById("home").style.display="none";
     document.getElementById("page-cipher").style.display="none";
     document.getElementById("answer-cipher").style.display="none";
     document.getElementById("page-decipher").style.display="block";
@@ -50,9 +50,9 @@ nextPage.addEventListener("click", () => {
   nextPageResultSecond.addEventListener("click", () => {
     const numberSecond = parseInt(document.getElementById("cambios-second").value);
     const messageSecond = document.getElementById("texto-second").value;
-    const resultDecipher = cipher.decode(numberSecond,messageSecond);
+    const resultDecipher = window.cipher.decode(numberSecond,messageSecond);
     document.getElementById("result-second").innerHTML = resultDecipher;
-    document.getElementById("homepage").style.display="none";
+    document.getElementById("home").style.display="none";
     document.getElementById("page-cipher").style.display="none";
     document.getElementById("answer-cipher").style.display="none";
     document.getElementById("page-decipher").style.display="none";
@@ -61,7 +61,7 @@ nextPage.addEventListener("click", () => {
 // Pagina de volver al inicio
   const backHome = document.getElementById("next-end-second");
   backHome.addEventListener("click", () => {
-    document.getElementById("homepage").style.display="block";
+    document.getElementById("home").style.display="block";
     document.getElementById("page-cipher").style.display="none";
     document.getElementById("answer-cipher").style.display="none";
     document.getElementById("page-decipher").style.display="none";
