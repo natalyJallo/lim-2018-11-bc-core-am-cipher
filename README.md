@@ -58,10 +58,12 @@ En este proceso de de crear el diseño de la pagina web me pude enfocar en que l
 
 #### MAQUETACION
  : Primera Maquetacion
- ![Pimera maqueta](imagenes/modelo2.jpeg)
+
+![Sin titulo](src/imagenes/modelo2.jpeg)
 
  : Segunda Maquetacion
- ![Segunda maqueta](imagenes/modelo1.jpeg)
+
+![Sin titulo](src/imagenes/modelo1.jpeg)
 
 #### COLORES
 Para definir los colores de mi pagina utilice las siguientes fuentes:
@@ -69,27 +71,33 @@ Para definir los colores de mi pagina utilice las siguientes fuentes:
 * [HTML Colores](https://htmlcolorcodes.com/es/)
 
 **Paletas de colores**
-![Imagen1][1] ![Imagen2][2]
-[1]: imagenes/captura1.png
-[2]: imagenes/captura2.png
+
+![Sin titulo](src/imagenes/captura1.png)
+
+![Sin titulo](src/imagenes/captura2.png)  
+
 
 #### TIPOGRAFIAS
 **Fuentes**
 * [Google Fonts](https://fonts.google.com/)
 
 #### PRIMER DISEÑO
+
 ![Imagen3][3] ![Imagen4][4]
-[3]: imagenes/captura3.png
-[4]: imagenes/captura4.png
+
+[3]: src/imagenes/captura3.png
+[4]: src/imagenes/captura4.png
 
 #### DISEÑO FINAL
-![Imagen5][5] ![Imagen6][6]![Imagen7][7]![Imagen8][8]![Imagen9][9]![Imagen10][10]
-[5]: imagenes/captura5.png
-[6]: imagenes/captura6.png
-[7]: imagenes/captura7.png
-[8]: imagenes/captura8.png
-[9]: imagenes/captura9.png
-[10]: imagenes/captura10.png
+
+![Imagen5][5] ![Imagen6][6] ![Imagen7][7] ![Imagen8][8] ![Imagen9][9] ![Imagen10][10]
+
+[5]: src/imagenes/captura5.png
+[6]: src/imagenes/captura6.png
+[7]: src/imagenes/captura7.png
+[8]: src/imagenes/captura8.png
+[9]: src/imagenes/captura9.png
+[10]: src/imagenes/captura10.png
 
 ### Interfaz de usuario (UI)
 
