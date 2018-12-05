@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=ABeeZee|Carrois+Gothic+SC|Didact+Gothic|Magra:700|Quattrocento+Sans|Tauri');
 
-/*diseño de la seccion principal*/
 body {
-width: 100%;
+  width: 100%;
 }
-/*
-background-color: #F4A460;
+
 /*diseño del encabezado*/
 header {
+  font-size: 15px;
   width: 100%;
   font-family: 'Tauri', sans-serif;
   font-family: 'ABeeZee', sans-serif;
@@ -22,67 +20,27 @@ header {
   background-attachment: fixed;
 }
 header h1 {
-  margin: 20px 0 20px 0;
+  margin: 18px 0 18px 0;
   float: left;
+  font-family: 'Noto Sans TC', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 35px;
+  font-weight: bold;
 }
 .icons img {
-  margin: 25px 0 25px 0;
+  margin: 20px 0 20px 0;
   float: right;
+  margin-right: 10px;
 }
-
 .image {
   display: inline;
-  margin-left: 10px;
-  width: 3%;
+  width: 2.5%;
 }
 
+/*DISEÑO DE LA SECCION PRINCIPAL*/
 section {
   width: 100%;
-  background-color: #F0F8FF;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
 }
-/*diseño de la pagina principal*/
-
-.pagina {
-  padding: 90px;
-}
-
-#homepage {
-  display: block;
-  background-image: url(imagenes/imagen513.png);
-  background-size: cover;
-}
-#page-cipher {
-  display: block;
-  background-image: url(imagenes/imagen8.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  position: absolute;
-}
-#answer-cipher {
-  display: block;
-  background-image: url(imagenes/imagen7.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  position: absolute;
-}
-#page-decipher {
-  display: block;
-  background-image: url(imagenes/imagen8.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  position: absolute;
-}
-#answer-decipher {
-  display: block;
-  background-image: url(imagenes/imagen9.jpg);
-  background-size: 100vw 100vh;
-  background-attachment: fixed;
-  position: absolute;
-}
-
 /*Primer encabezado de la pagina principal*/
 .text1 {
   text-align: left;
@@ -100,172 +58,195 @@ section {
   text-align: left;
   padding-top: 50px;
   line-height: 25pt;
-  color: #32302F;
+  color: #242223;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-size: 25px;
   padding-bottom: 20px;
   overflow: hidden;
   padding-left: 40px;
+  margin-bottom: 150px;
 }
-
-/*Tercer encabezado de la pagina principal*/
-.text3 {
-  text-align:left;
-  font-size: 22px;
-  padding-top: 50px;
-  padding-left: :430px;
-  float: left;
-  overflow: hidden;
-  line-height: 25pt;
-  font-family: 'Tauri', sans-serif;
-  font-family: 'ABeeZee', sans-serif;
-  font-family: 'Quattrocento Sans', sans-serif;
-  font-family: 'Didact Gothic', sans-serif;
-  width: 580px;
-  background: rgba(0, 0, 0, 0.3);
-  height: 250px;
-  border-radius: 10px;
-  color: #E5DDDF;
-}
-
+/*Encabezado de los articulos de la pagina principal*/
 article h1 {
   padding-top: 50px;
   text-align: center;
 }
-/*Estilo del espcaio de la caja donde va los botones*/
-h3 {
-  text-align: center;
+article {
+  margin-bottom: 50px;
 }
-
+/*Estilo para el tercer encabezado y parrafo de la pagina principal*/
+.box-btn {
+  margin-bottom: 0px;
+}
+.box-btn p {
+    color: #32302F;
+    font-size: 28px;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    margin-bottom: 50px;
+    line-height: 30pt;
+}
+/*Diseños de las cajas de botones de la pagina principal*/
 .box-text {
   text-align: center;
   float: left;
-  height: 150px;
+  height: 200px;
   background: rgba(0, 0, 0, 0.4);
-  font-size: 15px;
+  font-size: 12px;
   border-radius: 6px;
+  color: #32302F;
+  margin-bottom: 70px;
+  background-color: #87CEEB;
+  font-family: 'Noto Sans TC', sans-serif;
+  padding-top: 30px;
 }
-
-p {
-  font-size: 40px;
-  color: #95918D;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Niramit', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 30px;
-  padding: 20px 60px;
-  text-align: justify;
-}
-
-/*diseño de cuadros de texto*/
-}
-.cuadro1 {
-  background-color: #FFFACD;/*color del fondo del boton*/
-/*redondeado de los bordes del boton*/
-  border: 2px solid #F4A460;  /*grososr para el borde del boton*/
-
-}
-/*diseño del boton cifrar y descifrar*/
+/*Diseño para todos los botones*/
 .btn1 {
-text-decoration: none; /*para no tener el boton subrayado*/
-padding: 20px; /*distancia entre el texto y el borde del boton*/
-font-size: 25px;/*tamaño de la letra*/
-color: #FFFFFF;/*color de la letra*/
-background-color: #181616;/*color del fondo del boton*/
-border-radius: 6px;/*redondeado de los bordes del boton*/
-border: 2px solid rgba(51, 49, 48, 0.3);  /*grososr para el borde del boton*/
-width: 180px; /*medida del ancho del boton*/
-height: 50px; /*medida de la altura del boton*/
-font-family: 'Raleway', sans-serif;
-letter-spacing: 2px;
-text-align: center;
-line-height: 15px;
-padding-top: 15px;
-
-}
+  text-decoration: none;
+  padding: 20px;
+  font-size: 25px;
+  color: #FFFFFF;
+  background-color: #181616;
+  border-radius: 6px;
+  border: 2px solid rgba(51, 49, 48, 0.3);
+  width: 180px;
+  height: 50px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 15px;
+  }
 .btn1:hover {
   color: #181616;
   background-color: rgba(255, 255, 255,0.4);
   border: 2px solid rgba(51, 49, 48, 0.3);
   cursor: pointer;
 }
-
-/*diseño del boton siguiente*/
+/*Diseño para las paginas*/
+.pagina {
+  padding: 50px;
+}
+/*Imagenes de fondo para todas las paginas*/
+#homepage {
+  display: block;
+  background-image: url(imagenes/imagen513.png);
+  background-size: cover;
+}
+#page-cipher {
+  display: block;
+  background-image: url(imagenes/imagen8.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#answer-cipher {
+  display: block;
+  background-image: url(imagenes/imagen7.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#page-decipher {
+  display: none;
+  background-image: url(imagenes/imagen3.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+#answer-decipher {
+  display: none;
+  background-image: url(imagenes/imagen9.jpg);
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+/*Estilo de parrafo para todas las paginas*/
+p {
+  font-size: 20px;
+  color: #95918D;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Niramit', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 30px;
+  padding: 20px 60px;
+  text-align: center;
+  line-height: 20pt;
+}
+.pagina p {
+  font-size: 20px;
+  color: #32302F;
+  background-color: #FAEBD7;
+  width: 600px;
+  margin: auto;
+}
+/*diseño de cuadros de texto*/
+.cuadro1 {
+  background-color: #FFFACD;/*color del fondo del boton*/
+  border: 2px solid #F4A460;  /*grososr para el borde del boton*/
+}
+/*Estilo para los botones siguientes*/
 .btn2 {
   word-spacing: 80pt;
   text-align: center;
 }
-/*Diseño y estilo para las paginas de cifrar y resultados*/
-p {
-  text-align: center;
-  font-size: 20px;
-  line-height: 20pt;
-}
-
+/*Diseño de las cajas formulario para todas las paginas*/
 .form1 {
-  width: 800px;
+  width: 580px;
   margin: auto;
-  padding: 60px 30px;
+  padding: 30px 30px;
   line-height: 4pt;
-  height: 500px;
+  height: 410px;
   background: rgba(0, 0, 0, 0.4);
+  margin-top: 15px;
 }
-.form1 p {
-  color: #FFFFFF;
-}
-
+/*Diseño de lo label de cada input*/
 .form1 label {
-  float: left;
   display: inline-block;
-  margin-top: 2px;
-  padding: 3px;
-  width: 150px;
+  margin-top: 0px;
+  width: 200px;
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
   letter-spacing: 1pt;
+  line-height: 20pt;
 }
+li {
+  line-height: 10pt;
+  float: left;
+}
+/*Diseño de los inputs de los formularios*/
 .form1 input {
-  height: 23px;
-  padding: 5px 8px;
+  height: 40px;
   width: 180px;
-  margin-bottom: 20px;
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   font-family: 'Niramit', sans-serif;
   font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
+  padding-left: 10px;
 }
+/*Diseño de todas las textareas de los formularios*/
 .form1 textarea {
   padding: 8px;
-  width: 500px;
+  width: 450px;
   margin-bottom: 30px;
-}
-textarea {
-  min-height: 100px;
-  max-height: 200px;
-  max-width: 550px;
   font-size: 15px;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Niramit', sans-serif;
-  font-family: 'Poppins', sans-serif;
   font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
 }
-
+/*Estilo a las cajas de la textarea*/
+textarea {
+  height: 150px;
+  max-width: 550px;
+}
+/*Diseño de los inputs y textarea*/
 .form1 input, .form1 textarea {
   border: 1px solid black;
   box-shadow: 0 0 3px #96928E, 0 10px 15px #eee inset;
   border-radius: 3px;
   padding-right: 30px;
-  -moz-transition:padding .25s;
-  -webkit-transition:padding .25;
-  -o-transition:padding .25;
 }
-
+/*Diseño de los inputs y textareas con focus*/
 .form1 input:focus, .form1 textarea:focus {
   background: white;
   border: 1px solid #96928E;
@@ -273,4 +254,3 @@ textarea {
   padding-right: 70x;
   line-height: 20pt;
 }
-col-xs-12

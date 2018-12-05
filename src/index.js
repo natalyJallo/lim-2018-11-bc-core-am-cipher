@@ -33,7 +33,10 @@ nextPage.addEventListener("click", () => {
 
 // Evento de volver a la pagina de inicio
  const volver = document.getElementById("next-end");
- volver.addEventListener("click",inicio);
+ volver.addEventListener("click",() => {
+   inicio();
+   document.getElementById("form-first").reset();
+ });
 
 // Pgina de descifrar
   const nextPageSecond = document.getElementById("descifrar");
@@ -61,11 +64,8 @@ nextPage.addEventListener("click", () => {
 // Pagina de volver al inicio
   const backHome = document.getElementById("next-end-second");
   backHome.addEventListener("click", () => {
-    document.getElementById("home").style.display="block";
-    document.getElementById("page-cipher").style.display="none";
-    document.getElementById("answer-cipher").style.display="none";
-    document.getElementById("page-decipher").style.display="none";
-    document.getElementById("answer-decipher").style.display="none";
+    inicio();
+    document.getElementById("form-second").reset();
   });
 
   // Limpiar texto cifrado

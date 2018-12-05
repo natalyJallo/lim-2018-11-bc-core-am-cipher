@@ -13,26 +13,30 @@
     <link href="https://fonts.googleapis.com/css?family=Niramit|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Niramit|Poppins|Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Niramit|Poppins|Quicksand|Raleway" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Carrois+Gothic+SC|Didact+Gothic|Magra:700|Quattrocento+Sans|Tauri'">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans+TC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Noto+Sans+TC|Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link rel="stylesheet" href="intro/bootstrap.min.css">
   </head>
   <body>
       <!--encabezado-->
       <header>
         <div class="container-fluid">
-        <div class="col-xs12- col-sm-12 col-md-12">
-          <h2> <img src="imagenes/incognito1.png">Cyberhapp
-            <img src="imagenes/facebook.png" class="image4">
-            <img src="imagenes/twitter.png" class="image4">
-            <img src="imagenes/instagram2.png" class="image4"></h1>
-        </div>
+          <h1><img src="imagenes/incognito1.png">Cyberhapp</h1>
+          <div class="icons">
+            <img src="imagenes/pinterest.png" class="image">
+            <img src="imagenes/twitter.png" class="image">
+            <img src="imagenes/instagram.png" class="image">
+            <img src="imagenes/facebook.png" class="image">
+          </div>
         </div>
 
       </header>
       <!--seccion de cuerpo-->
       <section class="conteiner-fluid">
         <div id="home">
-        <div id="homepage" class="pagina col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="homepage" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <h1 class="text1">"SIENTETE SEGURO Y PROTEGE<br/>TU INFORMACION PERSONAL"</h1>
           <h2 class="text2">Ahora puedes crear contraseñas dificiles<br/> de hackear para tus cuentas personales como <br/>redes sociales, paginas web, correos electronicos, etc.</h2>
         </div>
@@ -51,23 +55,23 @@
           </article>
         </div>
         <div id ="box-btn1" class="box-btn" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <div class="text4">
-            <p>Para comenzar a crear tus contraseñas seguras:</p>
+          <div>
+            <p>AHORA CREA Y DESCUBRE CONTRASEÑAS DIFICILES DE HACKEAR</p>
           </div>
-          <div class="box-text col-xs-12 col-sm-12 col-md-offset-2 col-md-3 col-lg-offset-2 col-lg-3">
-              <h4>Si deseas cifrar una contraseña usando los caractereres de mayusculas y minusculas, dale click en CIFRAR.</h4>
-              <input type="button" id="cifrar" class="btn1" value="Cifrar">
+          <div class="box-text col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-3 col-lg-offset-2 col-lg-3">
+              <h3>Si deseas cifrar una contraseña, dale click en CIFRAR.</h4>
+              <button type="button" id="cifrar" class="btn1">Cifrar</button>
           </div>
-          <div class="box-text col-xs-12 col-sm-12 col-md-offset-2 col-md-3 col-lg-offset-2 col-lg-3">
-              <h4>Si deseas descifrar una contraseña, dale click en DESCIFRAR.</h4>
-              <input type="button" id="descifrar" class="btn1" value="Descifrar">
+          <div class="box-text col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-3 col-lg-offset-2 col-lg-3">
+              <h3>Si deseas descifrar una contraseña, dale click en DESCIFRAR.</h4>
+              <button type="button" id="descifrar" class="btn1">Descifrar</button>
           </div>
         </div>
           </div>
 
         <div id="page-cipher" class="pagina"  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <p>Escribe una contraseña nueva, indicando un numero de desplazamiento(offset) como clave de recorrido para que se pueda cifrar.</p>
-          <form class="form1">
+          <form id="form-first" class="form1" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul>
               <li>
                 <label for="cambios">Dezplazamiento: </label>
@@ -75,10 +79,10 @@
               </li>
               <li>
                 <label for="texto">Contraseña: </label>
-                <textarea type="text" id="texto" class="cuadro1" rows="8" cols="80" placeholder="Ingrese el mensaje y/o contraseña" required></textarea>
+                <textarea type="text" id="texto" class="cuadro1" rows="8" cols="80" placeholder="Ingrese la contraseña" required></textarea>
               </li>
             </ul>
-            <div class="btn2 col-xs-12 col-sm-8 col-md-8">
+            <div class="btn2">
               <button type="button" name="button" id="next" class="btn1">Siguiente</button>
               <button type="button" name="button" id="prueba" class="btn1">Limpiar</button>
             </div>
@@ -86,51 +90,51 @@
           </form>
         </div>
 
-        <div id="answer-cipher" class="pagina"  class="pagina col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="answer-cipher" class="pagina" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
           <p>Ahora puedes usar esta contraseña cifrada para tus cuentas personales y asi poder evitar cualquier intento de robo cybernetico.</p>
-          <form class="form1">
+          <form class="form1"class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul>
               <li>
-                <label for="result-message">Resultado: </label>
-                <textarea type="text" id="result-message" class="cuadro1 col-xs-12 col-sm-8 col-md-8" rows="8" cols="80" style="width:40em; height:15em"></textarea>
+                <label for="result-message">Contraseña cifrada: </label>
+                <textarea type="text" id="result-message" class="cuadro1" rows="8" cols="80"></textarea>
               </li>
             </ul>
-            <div class="btn2 col-xs-12 col-sm-12 col-md-12">
+            <div class="btn2">
               <button type="button" name="button" id="next-end" class="btn1">Volver</button>
             </div>
           </form>
         </div>
 
-        <div id="page-decipher" class="pagina"  class="pagina col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p>Escribe la contraseña cifrada, indicando tambien un numero de dezplazamiento(offset) ya utilizado al inicio de crear tus contraseñas.</p>
-          <form class="form1">
+        <div id="page-decipher" class="pagina" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Escribe la contraseña cifrada, indicando un numero de dezplazamiento(offset) que hayas utilizado al crear tus contraseñas.</p>
+          <form id="form-second" class="form1" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
             <ul>
               <li>
                 <label for="cambios-second">Dezplazamiento: </label>
                 <input type="text" id="cambios-second" class="cuadro1" placeholder="Ingrese un numero" required>
               </li>
               <li>
-                <label for="texto-second">Mensaje: </label>
-                <textarea type="text" id="texto-second" class="cuadro1 col-xs-12 col-sm-8 col-md-8" rows="8" cols="80" style="width:40em; height:15em" placeholder="Ingrese el mensaje y/o contraseña" required></textarea>
+                <label for="texto-second">Contraseña: </label>
+                <textarea type="text" id="texto-second" class="cuadro1" rows="8" cols="80" placeholder="Ingrese la contraseña" required></textarea>
               </li>
             </ul>
-            <div class="btn2 col-xs-12 col-sm-8 col-md-8">
+            <div class="btn2">
               <button type="button" name="button" id="next-second" class="btn1">Siguiente</button>
               <button type="button" name="button" id="prueba2" class="btn1">Limpiar</button>
             </div>
           </form>
         </div>
 
-        <div id="answer-decipher" class="pagina"  class="pagina col-xs-12 col-sm-12 col-md-12 col-lg-12">
-          <p>Ahora puedes saber tu contraseña descirada por si lo llegaste a olvidar.</p>
-          <form class="form1 col-xs-12 col-sm-12 col-md-12">
+        <div id="answer-decipher" class="pagina" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <p>Ahora puedes saber tu contraseña descifrada por si lo llegaste a olvidarlo.</p>
+          <form class="form1" class="col-xs-12 col-sm-12 col-md-12">
             <ul>
               <li>
-                <label for="result-second">Respuesta: </label>
-                <textarea type="text" id="result-second" class="cuadro1 col-xs-12 col-sm-8 col-md-8" rows="8" cols="80" style="width:40em; height:15em"></textarea>
+                <label for="result-second">Contraseña descifrada: </label>
+                <textarea type="text" id="result-second" class="cuadro1" rows="8" cols="80"></textarea>
               </li>
             </ul>
-            <div class="btn2 col-xs-12 col-sm-8 col-md-8">
+            <div class="btn2">
               <button type="button" name="button" id="next-end-second" class="btn1">VOLVER</button>
             </div>
           </form>
