@@ -72,9 +72,9 @@ Para definir los colores de mi pagina utilice las siguientes fuentes:
 
 **Paletas de colores**
 
-![Sin titulo](src/imagenes/captura1.png)
+![Sin titulo](src/imagenes/captura1.PNG)
 
-![Sin titulo](src/imagenes/captura2.png)  
+![Sin titulo](src/imagenes/captura2.PNG)  
 
 
 #### TIPOGRAFIAS
@@ -85,19 +85,19 @@ Para definir los colores de mi pagina utilice las siguientes fuentes:
 
 ![Imagen3][3] ![Imagen4][4]
 
-[3]: src/imagenes/captura3.png
-[4]: src/imagenes/captura4.png
+[3]: src/imagenes/captura3.PNG
+[4]: src/imagenes/captura4.PNG
 
 #### DISEÑO FINAL
 
 ![Imagen5][5] ![Imagen6][6] ![Imagen7][7] ![Imagen8][8] ![Imagen9][9] ![Imagen10][10]
 
-[5]: src/imagenes/captura5.png
-[6]: src/imagenes/captura6.png
-[7]: src/imagenes/captura7.png
-[8]: src/imagenes/captura8.png
-[9]: src/imagenes/captura9.png
-[10]: src/imagenes/captura10.png
+[5]: src/imagenes/captura5.PNG
+[6]: src/imagenes/captura6.PNG
+[7]: src/imagenes/captura7.PNG
+[8]: src/imagenes/captura8.PNG
+[9]: src/imagenes/captura9.PNG
+[10]: src/imagenes/captura10.PNG
 
 ### Interfaz de usuario (UI)
 
